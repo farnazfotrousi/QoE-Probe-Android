@@ -4,9 +4,9 @@
 ## Table of Contents
 
 * [Introduction](#Introduction)
-* [   How to use the Github](#How to use the Github)
-* [   Copyright and Licensing Information](#Copyright and Licensing Information)
-* [   Contact information](Contact information)
+ *   [How to use the Github](##How to use the Github)
+ *   [Copyright and Licensing Information](##Copyright and Licensing Information)
+ *   [Contact information](## Contact information)
 * [How the QoE probe works](#How the QoE probe works)
 * [Installation and Integration instructions](#Installation and Integration instructions)
 * [Alternative integration solution](###Alternative integration solution)
