@@ -9,8 +9,8 @@
 - [Contact information](Contact information)
 * [How the QoE probe works](#How the QoE probe works)
 * [Installation and Integration instructions](#Installation and Integration instructions)
-* [Appendix I: Alternative integration solutions](#Appendix I: Alternative integration solutions)
-* [Appendix II: User Interfaces of the QoE probe](Appendix II: User Interfaces of the QoE probe)
+* [Appendix: Alternative integration solutions](#Appendix: Alternative integration solutions)
+
 
 
 ## Introduction
@@ -98,7 +98,7 @@ identified to determine the good-enough QoS value by the help of
 rationale.
 
 ![Questionnaire User-Interface](https://github.com/farnazfotrousi/QoE-Probe-Android/blob/master/images/mainpage.jpg)
-Figure1 : Questionnaire User-Interface
+>Figure 1: Questionnaire User-Interface
 
 The log file (Figure 2) sent to the back-end application, contains
 several collected records that each includes the following data in order
@@ -110,10 +110,10 @@ name, the numerical rate for selected radio button (5 :excellent ..
 1:bad) , text of selected radio-button and user’s comment.
 
 ![Generated Log-file](https://github.com/farnazfotrousi/QoE-Probe-Android/blob/master/images/mainpage.jpg)
-Figure : Generated Log-file
+>Figure 2: Generated Log-file
 
 To enable data collection, the QoE probe will provide the interfaces to
-application developers that are explained in the section 4.
+application developers.
 
 ##Installation and Integration instructions
 
@@ -145,7 +145,7 @@ application developers that are explained in the section 4.
 
 > import com.bth.qoe.MeteredActivity;
 
-1.  Extends your MeteredActivity for an Activity of your application:
+4.  Extends your MeteredActivity for an Activity of your application:
 
     **public** **class** MainActivity **extends** MeteredActivity
 
@@ -249,16 +249,16 @@ https://comsrv1.comproj.bth.se:8443/QoEAnalyticsServer/?app=application\_name&to
 By calling the above URL, a window for confirmation of username and
 password will be presented. The admin of QoE probe will provide you a
 username and password. After a successful authentication, you can
-download all records relevant to your application\_name (Figure 4).
+download all records relevant to your application\_name (Figure 3).
 
 ![download](https://github.com/farnazfotrousi/QoE-Probe-Android/blob/master/images/download.jpg)
-Figure 3 : Opening logfile based on application\_name
+>Figure 3 : Opening logfile based on application\_name
 
 An example of downloaded file has been presented in Figure 3. For
 analysis you can import the file to an excel-sheet in order to have data
 in different columns.
 
-##Appendix I: Alternative integration solutions
+##Appendix: Alternative integration solutions
 
 
 For the alternative solution for integration and experimentation of the
@@ -276,11 +276,11 @@ with that instance:
 
 > import com.bth.qoe.Metered;
 
-1.  Create an instance of Metered class:
+4.  Create an instance of Metered class:
 
 Metered metered=Metered.getInstance();
 
-1.  In onResume method of your activity call the startQoEService method
+5.  In onResume method of your activity call the startQoEService method
     from the Metered class:
 
 > @Override
@@ -293,7 +293,7 @@ Metered metered=Metered.getInstance();
 >
 > }
 
-1.  In onStop method of your activity call stopQoEService method:
+6.  In onStop method of your activity call stopQoEService method:
 
 > @Override
 >
@@ -314,52 +314,25 @@ Metered metered=Metered.getInstance();
 > or
 > metered.registerApplication(getContentResolver(),"application\_name");
 
-1.  Log start of the feature. In the line that the feature is started in
+2.  Log start of the feature. In the line that the feature is started in
     your application call logFeatureStart method.
 
     metered.logFeatureStart("feature\_name");
 
-2.  Log completion of the feature. In the line that the feature is
+3.  Log completion of the feature. In the line that the feature is
     completed in your application, call logFeatureCompleted method with
     the feature\_name as the paramter.
 
     metered.logFeatureCompleted("feature\_name");
 
-3.  Log user Input. In the line that the user perform an action in your
+4.  Log user Input. In the line that the user perform an action in your
     application call logUserInput method with the action\_name as the
     parameter.
 
     metered.logUserInput("Action1");
 
-4.  Log application output. In the line that the application provides an
+5.  Log application output. In the line that the application provides an
     output for the users, call logApplicationOutput method with the
     action\_name as the parameters.
 
     metered.logApplicationOutput("Action2");
-
-##Appendix III: User Interfaces of the QoE probe
-
-  -----------------------------------------------------------------------------------------------------------------------------------------------------
-  > ![](media/image4.png)                                                   > ![](media/image5.png)<span id="_Ref273624038" class="anchor"></span>
-  >                                                                         >
-  > Figure : QoE questionnaire                                              > Figure : Welcome page after installation
-  ------------------------------------------------------------------------- ---------------------------------------------------------------------------
-    > ![](media/image6.png)   ![](media/image7.png)
-    ------------------------- -----------------------
-
-  <span id="_Ref271287624" class="anchor"></span>Figure : Preferences
-
-  > ![](media/image8.png)                                                   ![](media/image9.png)
-                                                                            
-  <span id="_Ref271288543" class="anchor"></span>                           <span id="_Ref271291425" class="anchor"></span>
-                                                                            
-  Figure : Accept Rules for Participation                                   Figure : Set Questionnaire Likelihood
-
-  > ![](media/image10.png)<span id="_Ref271291481" class="anchor"></span>   > ![](media/image11.png)
-                                                                            
-  Figure : Data Submission Interval                                         <span id="_Ref273629707" class="anchor"></span>Figure : About QoE Service
-
-                                                                            
-  -----------------------------------------------------------------------------------------------------------------------------------------------------
-
-
