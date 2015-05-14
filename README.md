@@ -14,6 +14,7 @@
 
 
 ## Introduction
+QoE probe was developed by [BTH - Blekinge Tekniska Högskola](http://www.bth.se) during a European project called [FI-STAR](https://www.fi-star.eu). The iOS version of the QoE probe has been developed by  [LTFE - University of Ljubljana](http://www.ltfe.org) and is accessible in the Github (https://github.com/LTFE/QoE-Probe-iOS) as well.
 
 The QoE Probe Android application is an android mobile application,
 which is integrated with another application in order to continuously
