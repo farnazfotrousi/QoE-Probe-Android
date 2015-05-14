@@ -106,10 +106,7 @@ acceptable. The estimated QoS value for maximum impact of QoE will be
 identified to determine the good-enough QoS value by the help of
 rationale.
 
-> ![](media/image1.png)
-
-<span id="_Ref273607540" class="anchor"></span>Figure : Questionnaire
-User-Interface
+![Figure : Questionnaire User-Interface](https://github.com/farnazfotrousi/QoE-Probe-Android/blob/master/images/mainpage.jpg)
 
 The log file (Figure 3) sent to the back-end application, contains
 several collected records that each includes the following data in order
