@@ -25,13 +25,16 @@ by deciding about acceptable levels of QoE.
 
 ### Github files
 
-Files uploaded in Github are three types:
--   "QoE.apk" and "QoE.jar" file that are ready to be used. 
+Files uploaded in the Github are four types:
+-  "README.md", "LICENSE", and "Terms_and_conditions" are informative files. 
 
--   “QoE probe” folder includes files relevant to the QoE-probe APK
+-   “QoE probe” folder includes source files relevant to the QoE-probe APK
 
--   “QoE-Library” folder includes files used as the library to connect a second
+-   “QoE-Library” folder includes source files used as the library to connect a second
     application to QoE-probe APK.
+
+-   "QoE.apk" and "qoe-lib.jar" are ready-to-use files  (refer to README.md). 
+
 
 ### Copyright and Licensing Information
 
