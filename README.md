@@ -4,22 +4,14 @@
 ## Table of Contents
 
 * [Introduction](#Introduction)
-** How to use the Github
-** Copyright and Licensing Information
-** Contact information
+- [How to use the Github](#How to use the Github)
+- [Copyright and Licensing Information](#Copyright and Licensing Information)
+- [Contact information](Contact information)
 * [How the QoE probe works](#How the QoE probe works)
 * [Installation and Integration instructions](#Installation and Integration instructions)
 * [Appendix I: Alternative integration solutions](#Appendix I: Alternative integration solutions)
 * [Appendix II: User Interfaces of the QoE probe](Appendix II: User Interfaces of the QoE probe)
 
-Introduction
-How to use the Github
-Copyright and Licensing Information
-Contact information
-How the QoE probe works
-Installation and Integration instructions
-Appendix I: Alternative integration solutions
-Appendix II: User Interfaces of the QoE probe
 
 ## Introduction
 
@@ -33,7 +25,6 @@ by deciding about acceptable levels of QoE.
 
 ### How to use the Github
 
-
 Files uploaded in Github are two parts:
 
 -   “QoE probe” includes files relevant to the QoE-probe APK
@@ -41,15 +32,15 @@ Files uploaded in Github are two parts:
 -   “QoE-Library” includes files used as the library to connect a second
     application to QoE-probe APK.
 
-###Copyright and Licensing Information
+### Copyright and Licensing Information
 
 The software is using GNU LGPL License. More information is available in
-the “LICENSE” file**.**
+the “LICENSE” file.
 
 The terms and conditions that has been also included in the software, is
 available in “Term-and-conditions.md”
 
-###Contact information
+### Contact information
 
 For technical questions, or reporting troubles and bugs, please contact
 Farnaz Fotrousi (Farnaz.Fotrousi at bth.se).
@@ -106,9 +97,10 @@ acceptable. The estimated QoS value for maximum impact of QoE will be
 identified to determine the good-enough QoS value by the help of
 rationale.
 
-![Figure : Questionnaire User-Interface](https://github.com/farnazfotrousi/QoE-Probe-Android/blob/master/images/mainpage.jpg)
+![Questionnaire User-Interface](https://github.com/farnazfotrousi/QoE-Probe-Android/blob/master/images/mainpage.jpg)
+Figure1 : Questionnaire User-Interface
 
-The log file (Figure 3) sent to the back-end application, contains
+The log file (Figure 2) sent to the back-end application, contains
 several collected records that each includes the following data in order
 (separated by ;):
 
@@ -117,10 +109,8 @@ starting feature, questionnaire results, etc), feature name, action
 name, the numerical rate for selected radio button (5 :excellent ..
 1:bad) , text of selected radio-button and user’s comment.
 
-> ![](media/image2.png)
-
-<span id="_Ref271293093" class="anchor"></span>Figure : Generated
-Log-file
+![Generated Log-file](https://github.com/farnazfotrousi/QoE-Probe-Android/blob/master/images/mainpage.jpg)
+Figure : Generated Log-file
 
 To enable data collection, the QoE probe will provide the interfaces to
 application developers that are explained in the section 4.
@@ -261,10 +251,8 @@ password will be presented. The admin of QoE probe will provide you a
 username and password. After a successful authentication, you can
 download all records relevant to your application\_name (Figure 4).
 
-> ![](media/image3.png)
-
-<span id="_Ref274921999" class="anchor"></span>Figure : Opening logfile
-based on application\_name
+![download](https://github.com/farnazfotrousi/QoE-Probe-Android/blob/master/images/download.jpg)
+Figure 3 : Opening logfile based on application\_name
 
 An example of downloaded file has been presented in Figure 3. For
 analysis you can import the file to an excel-sheet in order to have data
