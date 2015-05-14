@@ -121,9 +121,8 @@ application developers.
 
 
 > Downloading the QoE probe (QoE.apk) application as well as QoE library
-> (qoe-lib.jar). Then integrate your application with the QoE probe
-> (section **Error! Reference source not found.**) and follow experiment
-> instruction in section **Error! Reference source not found.**. Multi
+> (qoe-lib.jar). Then follow instructions for integrating your application with the QoE probe
+> and experimentation in the following sections. Multi
 > integration on one mobile device supports simultaneous use of the QoE
 > enabler.
 
