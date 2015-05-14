@@ -1,43 +1,24 @@
-QoE Probe for Android
-=====================
+#QoE Probe for Android
 
-Table of content
-----------------
+#Table of content
 
-1\. Introduction
+Introduction
 
-1.1. How to use the Github
+    How to use the Github
 
-1.2. Copyright and Licensing Information
+    Copyright and Licensing Information
 
-1.3. Contact information
+    Contact information
 
-2\. How the QoE probe works
+How the QoE probe works
 
-3\. Installation and Integration instructions
-
-3.1. Installation
-
-3.2. Integration
-
-3.3. Experimentation
-
-3.4. Configuration
-
-3.4.1. Accept Rules For Participation
-
-3.4.2. Set Questionnaire Likelihood
-
-3.4.3. Set Data Submission Interval
-
-3.5. How to use the collected data
+Installation and Integration instructions
 
 Appendix I: Alternative integration solutions
 
 Appendix III: User Interfaces of the QoE probe
 
-Introduction
-------------
+# Introduction
 
 The QoE Probe Android application is an android mobile application,
 which is integrated with another application in order to continuously
