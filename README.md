@@ -57,8 +57,8 @@ Files uploaded in Github are two parts:
 -   “QoE-Library” includes files used as the library to connect a second
     application to QoE-probe APK.
 
-    1.  Copyright and Licensing Information
-        -----------------------------------
+Copyright and Licensing Information
+-----------------------------------
 
 The software is using GNU LGPL License. More information is available in
 the “LICENSE” file**.**
@@ -147,11 +147,11 @@ Log-file
 To enable data collection, the QoE probe will provide the interfaces to
 application developers that are explained in the section 4.
 
-1.  Installation and Integration instructions
-    -----------------------------------------
+Installation and Integration instructions
+-----------------------------------------
 
-    1.  Installation
-        ------------
+    Installation
+    ------------
 
 > Downloading the QoE probe (QoE.apk) application as well as QoE library
 > (qoe-lib.jar). Then integrate your application with the QoE probe
@@ -160,8 +160,8 @@ application developers that are explained in the section 4.
 > integration on one mobile device supports simultaneous use of the QoE
 > enabler.
 
-Integration
------------
+    Integration
+    -----------
 
 > To integrate an application with QoE probe Android application,
 > developers can easily extend the *MeteredActivity* class for the
@@ -188,8 +188,8 @@ Integration
     library. Be sure “appcompat-v7 support library” has been configured
     for your project in advance.
 
-    1.  Experimentation
-        ---------------
+    Experimentation
+    ---------------
 
 > During the experimentation, developers should tag the code lines that
 > the features are started or completed. They also identify user input
