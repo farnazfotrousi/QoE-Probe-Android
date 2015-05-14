@@ -1,6 +1,16 @@
-#QoE Probe for Android
+# QoE Probe for Android
 
-##Table of content
+
+## Table of Contents
+
+* [Introduction](#Introduction)
+** How to use the Github
+** Copyright and Licensing Information
+** Contact information
+* [How the QoE probe works](#How the QoE probe works)
+* [Installation and Integration instructions](#Installation and Integration instructions)
+* [Appendix I: Alternative integration solutions](#Appendix I: Alternative integration solutions)
+* [Appendix II: User Interfaces of the QoE probe](Appendix II: User Interfaces of the QoE probe)
 
 Introduction
 How to use the Github
@@ -9,7 +19,7 @@ Contact information
 How the QoE probe works
 Installation and Integration instructions
 Appendix I: Alternative integration solutions
-Appendix III: User Interfaces of the QoE probe
+Appendix II: User Interfaces of the QoE probe
 
 ## Introduction
 
@@ -21,7 +31,7 @@ relationships between QoS and the impact of QoS on QoE. An understanding
 of this relationship can then be used to specify the right quality level
 by deciding about acceptable levels of QoE.
 
-###How to use the Github
+### How to use the Github
 
 
 Files uploaded in Github are two parts:
@@ -204,7 +214,6 @@ application developers that are explained in the section 4.
 registerApplication("application\_name");
 
 ###Configuration
-    -------------
 
 #### Accept Rules For Participation
 
