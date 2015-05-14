@@ -9,7 +9,7 @@
 - [Contact information](Contact information)
 * [How the QoE probe works](#How the QoE probe works)
 * [Installation and Integration instructions](#Installation and Integration instructions)
-* [Appendix: Alternative integration solutions](#Appendix: Alternative integration solutions)
+* [Alternative integration solution](###Alternative integration solution)
 
 
 
@@ -109,7 +109,7 @@ starting feature, questionnaire results, etc), feature name, action
 name, the numerical rate for selected radio button (5 :excellent ..
 1:bad) , text of selected radio-button and user’s comment.
 
-![Generated Log-file](https://github.com/farnazfotrousi/QoE-Probe-Android/blob/master/images/mainpage.jpg)
+![Generated Log-file](https://github.com/farnazfotrousi/QoE-Probe-Android/blob/master/images/log.jpg)
 >Figure 2: Generated Log-file
 
 To enable data collection, the QoE probe will provide the interfaces to
@@ -258,7 +258,7 @@ An example of downloaded file has been presented in Figure 3. For
 analysis you can import the file to an excel-sheet in order to have data
 in different columns.
 
-##Appendix: Alternative integration solutions
+###Alternative integration solution
 
 
 For the alternative solution for integration and experimentation of the
