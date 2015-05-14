@@ -4,7 +4,7 @@
 ## Table of Contents
 
 * [Introduction](#Introduction)
- *   [How to use the Github](##How to use the Github)
+ *   [Github files](##Github files)
  *   [Copyright and Licensing Information](##Copyright and Licensing Information)
  *   [Contact information](## Contact information)
 * [How the QoE probe works](#How the QoE probe works)
@@ -23,13 +23,14 @@ relationships between QoS and the impact of QoS on QoE. An understanding
 of this relationship can then be used to specify the right quality level
 by deciding about acceptable levels of QoE.
 
-### How to use the Github
+### Github files
 
-Files uploaded in Github are two parts:
+Files uploaded in Github are three types:
+-   "QoE.apk" and "QoE.jar" file that are ready to be used. 
 
--   “QoE probe” includes files relevant to the QoE-probe APK
+-   “QoE probe” folder includes files relevant to the QoE-probe APK
 
--   “QoE-Library” includes files used as the library to connect a second
+-   “QoE-Library” folder includes files used as the library to connect a second
     application to QoE-probe APK.
 
 ### Copyright and Licensing Information
