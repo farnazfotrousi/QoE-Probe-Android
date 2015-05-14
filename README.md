@@ -1,24 +1,17 @@
 #QoE Probe for Android
 
-#Table of content
+##Table of content
 
 Introduction
-
-    How to use the Github
-
-    Copyright and Licensing Information
-
-    Contact information
-
+How to use the Github
+Copyright and Licensing Information
+Contact information
 How the QoE probe works
-
 Installation and Integration instructions
-
 Appendix I: Alternative integration solutions
-
 Appendix III: User Interfaces of the QoE probe
 
-# Introduction
+## Introduction
 
 The QoE Probe Android application is an android mobile application,
 which is integrated with another application in order to continuously
@@ -28,8 +21,8 @@ relationships between QoS and the impact of QoS on QoE. An understanding
 of this relationship can then be used to specify the right quality level
 by deciding about acceptable levels of QoE.
 
-How to use the Github
----------------------
+###How to use the Github
+
 
 Files uploaded in Github are two parts:
 
@@ -38,8 +31,7 @@ Files uploaded in Github are two parts:
 -   “QoE-Library” includes files used as the library to connect a second
     application to QoE-probe APK.
 
-Copyright and Licensing Information
------------------------------------
+###Copyright and Licensing Information
 
 The software is using GNU LGPL License. More information is available in
 the “LICENSE” file**.**
@@ -47,14 +39,12 @@ the “LICENSE” file**.**
 The terms and conditions that has been also included in the software, is
 available in “Term-and-conditions.md”
 
-Contact information
--------------------
+###Contact information
 
 For technical questions, or reporting troubles and bugs, please contact
 Farnaz Fotrousi (Farnaz.Fotrousi at bth.se).
 
-How the QoE probe works
------------------------
+##How the QoE probe works
 
 Developers integrate the QoE probe with their own target application
 before the release. Then by installation the applications, data
@@ -128,11 +118,10 @@ Log-file
 To enable data collection, the QoE probe will provide the interfaces to
 application developers that are explained in the section 4.
 
-Installation and Integration instructions
------------------------------------------
+##Installation and Integration instructions
 
-    Installation
-    ------------
+###Installation
+
 
 > Downloading the QoE probe (QoE.apk) application as well as QoE library
 > (qoe-lib.jar). Then integrate your application with the QoE probe
@@ -141,9 +130,8 @@ Installation and Integration instructions
 > integration on one mobile device supports simultaneous use of the QoE
 > enabler.
 
-    Integration
-    -----------
-
+###Integration
+   
 > To integrate an application with QoE probe Android application,
 > developers can easily extend the *MeteredActivity* class for the
 > Activity classes of their application as explained through the
@@ -169,8 +157,8 @@ Installation and Integration instructions
     library. Be sure “appcompat-v7 support library” has been configured
     for your project in advance.
 
-    Experimentation
-    ---------------
+###Experimentation
+
 
 > During the experimentation, developers should tag the code lines that
 > the features are started or completed. They also identify user input
@@ -215,10 +203,10 @@ Installation and Integration instructions
 
 registerApplication("application\_name");
 
-1.  Configuration
+###Configuration
     -------------
 
-    1.  ### Accept Rules For Participation
+#### Accept Rules For Participation
 
 > To perform QoE/QoS data sharing within the trusted zone, the informed
 > consent for data sharing should be accepted. While the application is
@@ -231,7 +219,7 @@ registerApplication("application\_name");
 >
 > setAccceptRule(**true**);
 
-### Set Questionnaire Likelihood
+#### Set Questionnaire Likelihood
 
 > Questionnaire likelihood is the probability that a QoE questionnaire
 > will be fired. This probability can be set in range of 0 to 100. As an
@@ -242,7 +230,7 @@ registerApplication("application\_name");
 >
 > setQuestionnaireLikelihood(likelihood);
 
-### Set Data Submission Interval 
+#### Set Data Submission Interval 
 
 > The “data submission interval” configures the maximal timespan to wait
 > before the user is requested to share QoE and QoS data with the
@@ -255,8 +243,7 @@ registerApplication("application\_name");
 
 setDataCollectionInterval(time\_interval);
 
-How to use the collected data
------------------------------
+###How to use the collected data
 
 The generated logfile on the server is downloadable through the
 following URL using your application\_name as the paramter:
@@ -277,8 +264,8 @@ An example of downloaded file has been presented in Figure 3. For
 analysis you can import the file to an excel-sheet in order to have data
 in different columns.
 
-Appendix I: Alternative integration solutions
----------------------------------------------
+##Appendix I: Alternative integration solutions
+
 
 For the alternative solution for integration and experimentation of the
 QoE probe, developers will make an instance from Metered Class and work
@@ -356,8 +343,7 @@ Metered metered=Metered.getInstance();
 
     metered.logApplicationOutput("Action2");
 
-Appendix III: User Interfaces of the QoE probe
-----------------------------------------------
+##Appendix III: User Interfaces of the QoE probe
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------
   > ![](media/image4.png)                                                   > ![](media/image5.png)<span id="_Ref273624038" class="anchor"></span>
