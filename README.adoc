@@ -6,38 +6,14 @@ QoE Probe for Android
 Table of content
 ~~~~~~~~~~~~~~~~
 
-\1. Introduction
-
-1.1. How to use the Github
-
-1.2. Copyright and Licensing Information
-
-1.3. Contact information
-
-\2. How the QoE probe works
-
-\3. Installation and Integration instructions
-
-3.1. Installation
-
-3.2. Integration
-
-3.3. Experimentation
-
-3.4. Configuration
-
-3.4.1. Accept Rules For Participation
-
-3.4.2. Set Questionnaire Likelihood
-
-3.4.3. Set Data Submission Interval
-
-3.5. How to use the collected data
-
+Introduction
+  How to use the Github
+  Copyright and Licensing Information
+  Contact information
+How the QoE probe works
+Installation and Integration instructions
 Appendix I: Java-Doc
-
 Appendix II: Alternative integration solutions
-
 Appendix III: User Interfaces of the QoE probe
 
 [[introduction]]
@@ -53,7 +29,7 @@ of this relationship can then be used to specify the right quality level
 by deciding about acceptable levels of QoE.
 
 [[how-to-use-the-github]]
-How to use the Github
+  How to use the Github
 ~~~~~~~~~~~~~~~~~~~~~
 
 Files uploaded in Github are two parts:
@@ -61,8 +37,8 @@ Files uploaded in Github are two parts:
 * “QoE probe” includes files relevant to the QoE-probe APK
 * “QoE-Library” includes files used as the library to connect a second
 application to QoE-probe APK.
-1.  [[copyright-and-licensing-information]]
-Copyright and Licensing Information
+[[copyright-and-licensing-information]]
+  Copyright and Licensing Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The software is using GNU LGPL License. More information is available in
@@ -72,14 +48,14 @@ The terms and conditions that has been also included in the software, is
 available in “Term-and-conditions.md”
 
 [[contact-information]]
-Contact information
+ Contact information
 ~~~~~~~~~~~~~~~~~~~
 
 For technical questions, or reporting troubles and bugs, please contact
 Farnaz Fotrousi (Farnaz.Fotrousi at bth.se).
 
 [[how-the-qoe-probe-works]]
-How the QoE probe works
+ How the QoE probe works
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Developers integrate the QoE probe with their own target application
