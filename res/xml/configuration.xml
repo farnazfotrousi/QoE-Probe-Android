@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="usecaseapp" android:key="app" android:enabled="true">
+    		<SwitchPreference android:key="collectdata" android:title="@string/menu_preferences_collectData" android:defaultValue="true" android:switchTextOn="On" android:switchTextOff="Off" />
+    		<com.bth.qoe.FloatEditTextPreference android:id="@+id/likelihood" android:title="@string/menu_preferences_likelihood"  android:dependency="collectdata" android:inputType="numberDecimal" android:key="likelihood" android:defaultValue="1" android:summary="@string/menu_preferences_likelihood_hints" />
+    		<com.bth.qoe.IntEditTextPreference android:id="@+id/timespan" android:title="@string/menu_preferences_timespan" android:dependency="collectdata" android:inputType="number" android:key="timespan" android:defaultValue="1"  android:summary="@string/menu_preferences_timespan_hints" />  
+    		<Preference android:key="firstRunApp" android:defaultValue="true" />
+    </PreferenceCategory>		
+</PreferenceScreen>

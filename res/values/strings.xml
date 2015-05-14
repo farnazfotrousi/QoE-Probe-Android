@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">Quality of Experience</string>
+    <string name="question">Please rate your experience with the feature you just used:</string>
+    <string name="excellent">Excellent</string>
+    <string name="good">Good</string>
+    <string name="fair">Fair</string>
+    <string name="poor">Poor</string>
+    <string name="bad">Bad</string>
+    <string name="runType">Connected</string>
+    <string name="comment">Comment</string>
+    <string name="submit">Submit</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="title_activity_submit">SubmitActivity</string>
+    <string name="reason">Please provide why you feel that way</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="update">Update</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_preferences_likelihood">Likelihood</string>
+    <string name="menu_preferences_hints">Hints: Likelihood is the probability that the QoE questionnaire will be fired. Time-Span waiting time to send collected data automatically.</string>
+    <string name="menu_preferences_likelihood_hints">% probability that the QoE questionnaire will be fired.</string>
+    <string name="menu_preferences_timespan_hints">\u0020days waiting time to send collected data for analysis automatically</string>
+    <string name="menu_preferences_timespan">Data Submission Interval</string>
+    <string name="menu_preferences_new_likelihood_error">New Likelihood should be in 0-100 range.</string>
+    <string name="menu_preferences_new_timespan_error">New Time-Span should be less than 90 days.</string>
+    <string name="menu_preferences_collectData">Collect Data</string>
+    <string name="menu_information">About QoE Service</string>
+    <string name="menu_information_content">This is the quality of experience application.</string>
+    <string name="menu_showData">Your QoE Data</string>
+    <string name="menu_showData_content">Here is the collected Quality of Experience data:</string>
+    <string name="menu_showData_nocontent">No data has been collected so far.</string>
+    <string name="menu_opt_out">Deactivate Data Collection</string>
+    <string name="menu_opt_out_content">Are you sure that you want to stop the "Quality of Experience" service? </string>
+    <string name="license_title">QoE Probe: GNU LGPL License.</string>
+    <string name="license_content">This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+			\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+			\nYou find the GNU LGPL license here: <a href="http://www.gnu.org/licenses/lgpl.html">http://www.gnu.org/licenses/lgpl.html</a>.
+			\nYou find the source code here: <a href="http://bit.ly/QoEProbe">http://bit.ly/QoEProbe</a>.
+			\nCopyright: Dr. Samuel A. Fricker and Farnaz Fotrousi, Blekinge Institute of Technology, Karlskrona, Sweden. October 05, 2014.
+    </string>
+    <string name="terms_conditions_title">Terms and Conditions</string>
+    <string name="privacy_policy_title">QoE Probe: Privacy Policy.</string>
+    <string name="privacy_policy_content">We collect information to allow developers to provide better services with their applications.
+		\nWe collect information you give us and information we get from your use of the application:
+		\n- Experience questionnaire,
+		\n- Hardware and anonymized identifier of your device, and
+		\n- Time-stamps of how the application interacts with you.
+		\nAll information we collect is anonymous. We do NOT collect personal information such as location, name, or contact information. We store information first locally on your device and then on our data server.
+		\nWe share the collected anonymous information with FI-STAR application developers. We may share aggregated anonymous information to partners other than FI-STAR for scientific studies about user experience.
+		\nYou are always in control of the data collection. We collect data only if you consent to this privacy policy. You can opt out from data collection at any time by switching the data collection off in the preferences menu.
+		\nYou can access your information stored on our data server by sending us a request to: samuel.fricker@bth.se. You may request deletion of the same data by sending us a request to the same address. We will contact you and
+		\nDate: October 05, 2014.
+    </string>
+    <string name="terms_application_request">application has requested authority to run QoE application. Do you accept the following terms and conditions?</string>
+    <string name="form_submitted"> Successfully submitted!</string>
+    <string name="form_submitted_content">Thank you for sharing your experience.</string>
+    <string name="form_not_submitted"> Data can not be submitted!</string>
+    <string name="form_not_submitted_content">There is no Internet connection. Data will be submitted as soon as Internet is connected.</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="title_activity_terms_and_conditions">TermsAndConditions</string>
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="deactive_app">Welcome to the QoE Probe! The application is not a stand-alone application and it only works when is integrated with another application. Now, you are able to configure it in the Preferences Menu.</string>
+</resources>

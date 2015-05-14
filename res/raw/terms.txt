@@ -1,0 +1,18 @@
+QoE Probe: GNU LGPL License.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+You find the GNU LGPL license here: http://www.gnu.org/licenses/lgpl.html.
+You find the source code here: http://bit.ly/QoEProbe.
+Copyright: Dr. Samuel A. Fricker and Farnaz Fotrousi, Blekinge Institute of Technology, Karlskrona, Sweden. October 05, 2014.
+
+QoE Probe: Privacy Policy.
+We collect information to allow developers to provide better services with their applications.
+We collect information you give us and information we get from your use of the application:
+-	Experience questionnaire,
+-	Hardware and anonymized identifier of your device, and
+-	Time-stamps of how the application interacts with you.
+All information we collect is anonymous. We do NOT collect personal information such as location, name, or contact information. We store information first locally on your device and then on our data server.
+We share the collected anonymous information with FI-STAR application developers. We may share aggregated anonymous information to partners other than FI-STAR for scientific studies about user experience.
+You are always in control of the data collection. We collect data only if you consent to this privacy policy. You can opt out from data collection at any time by switching the data collection off in the preferences menu.
+You can access your information stored on our data server by sending us a request to: samuel.fricker@bth.se. You may request deletion of the same data by sending us a request to the same address. We will contact you and
+Date: October 05, 2014.
