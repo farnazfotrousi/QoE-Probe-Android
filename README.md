@@ -326,14 +326,18 @@ Metered metered=Metered.getInstance();
     the feature\_name as the paramter.
 
     metered.logFeatureCompleted("feature\_name");
+4.  Log firing the questionnaire. In the next line that the feature is
+    completed in your application, call logFireQuestionnaire method with
+    the feature\_name as the paramter.
 
-4.  Log user Input. In the line that the user perform an action in your
+    metered.loglogFireQuestionnaire("feature\_name");
+5.  Log user Input. In the line that the user perform an action in your
     application call logUserInput method with the action\_name as the
     parameter.
 
     metered.logUserInput("Action1");
 
-5.  Log application output. In the line that the application provides an
+6.  Log application output. In the line that the application provides an
     output for the users, call logApplicationOutput method with the
     action\_name as the parameters.
 
