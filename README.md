@@ -330,7 +330,7 @@ Metered metered=Metered.getInstance();
     completed in your application, call logFireQuestionnaire method with
     the feature\_name as the paramter.
 
-    metered.loglogFireQuestionnaire("feature\_name");
+    metered.logFireQuestionnaire("feature\_name");
 5.  Log user Input. In the line that the user perform an action in your
     application call logUserInput method with the action\_name as the
     parameter.
