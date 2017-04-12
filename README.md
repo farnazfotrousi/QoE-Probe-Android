@@ -48,7 +48,7 @@ available in “Term-and-conditions.md”
 For technical questions, or reporting troubles and bugs, please contact
 Farnaz Fotrousi (Farnaz.Fotrousi at bth.se).
 
-##How the QoE probe works
+## How the QoE probe works
 
 Developers integrate the QoE probe with their own target application
 before the release. Then by installation the applications, data
@@ -118,9 +118,9 @@ name, the numerical rate for selected radio button (5 :excellent ..
 To enable data collection, the QoE probe will provide the interfaces to
 application developers.
 
-#Installation and Integration instructions
+# Installation and Integration instructions
 
-##Installation
+## Installation
 
 
 > Downloading the QoE probe (QoE.apk) application as well as QoE library
@@ -129,7 +129,7 @@ application developers.
 > integration on one mobile device supports simultaneous use of the QoE
 > enabler.
 
-##Integration
+## Integration
    
 > To integrate an application with QoE probe Android application,
 > developers can easily extend the *MeteredActivity* class for the
@@ -156,7 +156,7 @@ application developers.
     library. Be sure “appcompat-v7 support library” has been configured
     for your project in advance.
 
-##Experimentation
+## Experimentation
 
 
 > During the experimentation, developers should tag the code lines that
@@ -202,7 +202,7 @@ application developers.
 
 registerApplication("application\_name");
 
-##Configuration
+## Configuration
 
 #### Accept Rules For Participation
 
@@ -241,7 +241,7 @@ registerApplication("application\_name");
 
 setDataCollectionInterval(time\_interval);
 
-###How to use the collected data
+### How to use the collected data
 
 The generated logfile on the server is downloadable through the
 following URL using your application\_name as the paramter:
@@ -260,7 +260,7 @@ An example of downloaded file has been presented in Figure 3. For
 analysis you can import the file to an excel-sheet in order to have data
 in different columns.
 
-###Alternative integration solution
+### Alternative integration solution
 
 
 For the alternative solution for integration and experimentation of the
