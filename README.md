@@ -3,13 +3,13 @@ QoE probe was developed by [BTH - Blekinge Tekniska Högskola](http://www.bth.se
 
 ## Table of Contents
 
-* [Introduction](# Introduction)
- *   [Github files](## Github files)
- *   [Copyright and Licensing Information](##Copyright and Licensing Information)
- *   [Contact information](## Contact information)
-* [How the QoE probe works](# How the QoE probe works)
-* [Installation and Integration instructions](# Installation and Integration instructions)
-* [Alternative integration solution](### Alternative integration solution)
+* [Introduction](#Introduction)
+ *   [Github files](#Github_files)
+ *   [Copyright and Licensing Information](##Copyright_and_Licensing_Information)
+ *   [Contact information](##Contact_information)
+* [How the QoE probe works](#How_the_QoE_probe_works)
+* [Installation and Integration instructions](#Installation_and_Integration_instructions)
+* [Alternative integration solution](###Alternative_integration_solution)
 
 ## Introduction
 
@@ -118,9 +118,9 @@ name, the numerical rate for selected radio button (5 :excellent ..
 To enable data collection, the QoE probe will provide the interfaces to
 application developers.
 
-# Installation and Integration instructions
+## Installation and Integration instructions
 
-## Installation
+### Installation
 
 
 > Downloading the QoE probe (QoE.apk) application as well as QoE library
@@ -129,7 +129,7 @@ application developers.
 > integration on one mobile device supports simultaneous use of the QoE
 > enabler.
 
-## Integration
+### Integration
    
 > To integrate an application with QoE probe Android application,
 > developers can easily extend the *MeteredActivity* class for the
@@ -156,7 +156,7 @@ application developers.
     library. Be sure “appcompat-v7 support library” has been configured
     for your project in advance.
 
-## Experimentation
+### Experimentation
 
 
 > During the experimentation, developers should tag the code lines that
