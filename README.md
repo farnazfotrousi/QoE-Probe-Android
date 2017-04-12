@@ -3,13 +3,13 @@ QoE probe was developed by [BTH - Blekinge Tekniska Högskola](http://www.bth.se
 
 ## Table of Contents
 
-* [Introduction](#Introduction)
- *   [Github files](##Github files)
+* [Introduction](# Introduction)
+ *   [Github files](## Github files)
  *   [Copyright and Licensing Information](##Copyright and Licensing Information)
  *   [Contact information](## Contact information)
-* [How the QoE probe works](#How the QoE probe works)
-* [Installation and Integration instructions](#Installation and Integration instructions)
-* [Alternative integration solution](###Alternative integration solution)
+* [How the QoE probe works](# How the QoE probe works)
+* [Installation and Integration instructions](# Installation and Integration instructions)
+* [Alternative integration solution](### Alternative integration solution)
 
 ## Introduction
 
