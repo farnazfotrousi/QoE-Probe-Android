@@ -22,7 +22,7 @@ relationships between QoS and the impact of QoS on QoE. An understanding
 of this relationship can then be used to specify the right quality level
 by deciding about acceptable levels of QoE.
 
-### Github files
+## Github files
 
 Files uploaded in the Github are four types:
 -  "README.md", "LICENSE", and "Terms_and_conditions" are informative files. 
@@ -35,7 +35,7 @@ Files uploaded in the Github are four types:
 -   "QoE.apk" and "qoe-lib.jar" are ready-to-use files  (refer to README.md). 
 
 
-### Copyright and Licensing Information
+## Copyright and Licensing Information
 
 The software is using GNU LGPL License. More information is available in
 the “LICENSE” file.
@@ -43,7 +43,7 @@ the “LICENSE” file.
 The terms and conditions that has been also included in the software, is
 available in “Term-and-conditions.md”
 
-### Contact information
+## Contact information
 
 For technical questions, or reporting troubles and bugs, please contact
 Farnaz Fotrousi (Farnaz.Fotrousi at bth.se).
@@ -118,9 +118,9 @@ name, the numerical rate for selected radio button (5 :excellent ..
 To enable data collection, the QoE probe will provide the interfaces to
 application developers.
 
-##Installation and Integration instructions
+#Installation and Integration instructions
 
-###Installation
+##Installation
 
 
 > Downloading the QoE probe (QoE.apk) application as well as QoE library
@@ -129,7 +129,7 @@ application developers.
 > integration on one mobile device supports simultaneous use of the QoE
 > enabler.
 
-###Integration
+##Integration
    
 > To integrate an application with QoE probe Android application,
 > developers can easily extend the *MeteredActivity* class for the
@@ -156,7 +156,7 @@ application developers.
     library. Be sure “appcompat-v7 support library” has been configured
     for your project in advance.
 
-###Experimentation
+##Experimentation
 
 
 > During the experimentation, developers should tag the code lines that
@@ -202,7 +202,7 @@ application developers.
 
 registerApplication("application\_name");
 
-###Configuration
+##Configuration
 
 #### Accept Rules For Participation
 
