@@ -3,13 +3,13 @@ QoE probe was developed by [BTH - Blekinge Tekniska Högskola](http://www.bth.se
 
 ## Table of Contents
 
-* [Introduction](##Introduction)
- *   [Github files](##Github_files)
- *   [Copyright and Licensing Information](##Copyright_and_Licensing_Information)
- *   [Contact information](##Contact_information)
-* [How the QoE probe works](##How_the_QoE_probe_works)
-* [Installation and Integration instructions](##Installation_and_Integration_instructions)
-* [Alternative integration solution](###Alternative_integration_solution)
+* [Introduction](#Introduction)
+ *   [Github files](#Github-files)
+ *   [Copyright and Licensing Information](#Copyright-and-Licensing-Information)
+ *   [Contact information](#Contact-information)
+* [How the QoE probe works](#How-QoE-probe_works)
+* [Installation and Integration instructions](#Installation-and-Integration-instructions)
+* [Alternative integration solution](###Alternative-integration-solution)
 
 ## Introduction
 
@@ -48,7 +48,7 @@ available in “Term-and-conditions.md”
 For technical questions, or reporting troubles and bugs, please contact
 Farnaz Fotrousi (Farnaz.Fotrousi at bth.se).
 
-## How the QoE probe works
+## How QoE probe works
 
 Developers integrate the QoE probe with their own target application
 before the release. Then by installation the applications, data
